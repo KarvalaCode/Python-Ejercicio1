@@ -20,6 +20,6 @@ def recorre (ruta):
      
                 elif os.path.isdir(rutaC):
                         print("Es carpeta: ", carpeta, "Tamaño: ", human)
-                    
+                        recorre(rutaC)
 recorre(ruta)        
    
